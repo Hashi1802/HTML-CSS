@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositvos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMAGEM/IMG.P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGEM/img.m.png" 
+        type="image/png">
+        <img src="IMAGEM/IMG.G.png" alt="">Imagem flexível</picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+    <audio src="midia/music.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop src="midia/podcast.mp3" type="audio/mpeg"></audio>
+</body>
+</html>

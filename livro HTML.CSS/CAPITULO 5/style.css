@@ -1,0 +1,104 @@
+@charset "UTF-8";
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.clear {clear: both;}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px/1.4 arial, sans-serif;
+  background-color: #ddd;
+  color: #333;
+}
+.tudo{ width: 100%;
+max-width: 960px;
+margin: 0 auto;
+background: #fff;
+}
+.topo {
+    width: 100%;
+    line-height: 1;
+    padding: 1px 20px 10px 20px;
+}
+.topo a{
+    color: #900;
+    text-decoration: none;
+}
+.topo h1{
+    font-size: 36px;
+    margin: 4px 0 2px p;
+    text-align: right;
+}
+.topo h2{
+font-size: 20px;
+margin: 2px 0 2px 0;
+text-align: right;
+
+}
+.topo ul li {
+    life-style: none;
+    display: inline;
+}
+.topo ul li a {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    background: #900;
+    font-size: 14px;
+    font-weight:bold ;
+}
+.topo ul li:last-child a {border:none}
+.topo ul li a:hover {color: #900; background: #ccc;}
+.topo ul li a:hover, .home .corrente{ color:#900; background: rgb(225, 185, 185);}
+hgroup > h1 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+hgroup a {
+    color: #c30;
+    text-decoration: none;
+}
+h1 ~ h2{
+    font-size: 27px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: #090;
+}
+nav{
+    border-top: 1px solid #900;
+    width: 100%;
+    width: calc(100% + 40px);
+    margin left: -20px;
+}
+nav > ul {
+    width: 100px;
+    background-color: #900;
+    margin: 5px 0 0 0;
+    padding: 0;
+    
+}
+nav > ul > li:first-child > a { color: #c60; text-decoration: none; }
+nav > ul > li:first-child > a:hover { 
+    color: #555;
+    text-decoration: underline;
+}
+nav > ul > li:last-child { 
+    font-size: 26px;
+    list-style-type: square;
+}
+nav > ul > li:nth-child(3) {
+    background-color: #ccc;
+}
