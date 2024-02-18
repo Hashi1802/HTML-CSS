@@ -11,6 +11,7 @@
     }
     table{
         width: 400px;
+        height: 400px;
         padding: 0;
         margin: 0;
         border-collapse: collapse;
@@ -18,10 +19,13 @@
     td{
         border: 1px solid black;
         padding: 8px;
+        text-align: center; /* Alinhamento Horizontal*/
+        vertical-align: middle; /* alinhamento vertical*/
     }
-    tr.linha{
-        background-color: violet;
+    .numero {
+        text-align: right;
     }
+
 </style>
 <body>
     <h1>Minha Primeira Tabela</h1>
@@ -38,7 +42,7 @@
 <td>A2</td>
 <td>A3</td>
     </tr>
-    <tr class="linha">
+    <tr>
         <td>A2</td>
         <td>B2</td>
         <td>C2</td>
