@@ -23,6 +23,9 @@
         td.num{
             text-align: right;
         }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
@@ -36,10 +39,11 @@
     T   TR, TD, TH
     -->
 <table>
+    <caption>Populacao das unidades Federativas</caption>
     <thead>
 <tr>
-    <th>Estado</th>
-    <th> populacao</th>
+    <th scope="col">Estado</th>
+    <th scope="col" style="width: 50px;"> populacao</th>
 </tr>
     </thead>
     <tbody>
@@ -63,7 +67,7 @@
     </tbody>
     <tfoot>
         <tr>
-            <th>total de habitantes</th>
+            <th scope="row">total de habitantes</th>
             <td class="num"><strong>84 352 041</strong></td>
         </tr>
     </tfoot>
