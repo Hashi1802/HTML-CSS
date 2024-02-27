@@ -1,8 +1,34 @@
 @charset "UTF-8";
-*, *:before, *:after {
-    /* regras para alterar o box model padrão*/
-    -webkit-box-sizing:border-box/
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
 .clear {clear: both;} /*classse para ˜limpar elementos flutuados*/
+body{
+    font: 18px/1.4 arial, sans-serif; color: #333;
+    background: #ccc; /* cor do fundo cinza */
+}
+#tudo{
+    width: 960px; margin: 0 auto; /* centralziar a pagina de 960px de largura */
+    background: #fff; /* cor de fundo cinza */
+}
+h1, h2, h3, h4, h5, h6 { color: #036;}
+.topheader h1 {
+    font-size: 36px; text-align: right; margin: 4px 0 2px 0;
+}
+.top_header {
+    background: #036; /* cor de fundo azul para o topo */
+    padding: 5px 20px;
+}
+.topheader a { color: #fff; text-decoration: none;}
+.topo_header h2 { font-size: 20px; text-align: right; margin: 2px 0 4px 0; color: #fff;} 
+.principal {
+    width: 720px; float: right; /*flutua a direita */
+}
+.auxiliar {
+    width: 220px; float: left; /*flutua a esquerda*/
+}
+.rodape {
+    clear:both; /* "limpa"as colunas flutuadas e define altura do rodapé*/
+    background: #036;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
