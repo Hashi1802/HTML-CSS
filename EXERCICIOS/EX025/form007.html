@@ -9,9 +9,27 @@
     <h1>Formulario</h1>
 
     <form action="cadastro.php" method="get">
-
-
-
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+                <optgroup label="REGIÃO>
+                    <option value="SP">São Paulo</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="Profissão" id="iprof" list="iprof">
+            <datalist id="iprof">
+                <option value="TEC">Técnico em Radiologia</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="TR">Transão</option>
+            </datalist>
+            
+        </p>
+        
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
